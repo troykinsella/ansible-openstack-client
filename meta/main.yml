@@ -1,0 +1,41 @@
+---
+dependencies:
+- role: troykinsella.python
+  python_legacy_support: yes
+  python_packages:
+  - python-ceilometerclient
+  - python-cinderclient
+  - python-glanceclient
+  - python-heatclient
+  - python-keystoneclient
+  - python-neutronclient
+  - python-novaclient
+  - python-swiftclient
+  - python-troveclient
+
+galaxy_info:
+  author: Troy Kinsella
+  description: "OpenStack clients: ceilometer, cinder, glance, heat, keystone, neutron, nova, swift, and trove."
+  license: MIT
+  min_ansible_version: 1.6
+  platforms:
+  - name: Ubuntu
+    versions:
+    - trusty
+    - utopic
+    - vivid
+    - wily
+  galaxy_tags:
+    - packaging
+    - openstack
+    - client
+    - ceilometer
+    - cinder
+    - glance
+    - heat
+    - keystone
+    - neutron
+    - nova
+    - swift
+    - trove
+  github_branch: master
