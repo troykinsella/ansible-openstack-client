@@ -1,7 +1,7 @@
 troykinsella.openstack-client
 =============================
 
-Install OpenStack clients: ceilometer, cinder, glance, heat, keystone, neutron, nova, swift, and trove.
+An ansible role to install OpenStack clients: ceilometer, cinder, glance, heat, keystone, neutron, nova, swift, and trove.
 
 Dependencies
 ------------
